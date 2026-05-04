@@ -1,0 +1,338 @@
+    <!doctype html>
+    <html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Purdue ACC Programs | Home</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    </head>
+
+    <body>
+
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Main navigation">
+        <div class="container">
+        <a class="navbar-brand" href="index.html">Applied & Creative Computing Course Exploration</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+            aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="programs.html">Programs</a></li>
+            <li class="nav-item"><a class="nav-link" href="#quiz">Quiz</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    </header>
+
+    <main>
+
+    <!--hero-->
+    <section class="hero text-white text-center py-5">
+    <div class="container">
+        <h1 class="display-4 fw-bold">Purdue ACC Course Visualization Tool</h1>
+        <p class="lead">
+        Explore programs, discover your interests, and find your path in computing and design.
+        </p>
+        <a href="programs.html" class="btn btn-warning btn-lg mt-3">Explore Available Programs</a>
+    </div>
+    </section>
+
+    <!--About ACC -->
+    <section class="py-5">
+    <div class="container">
+        <div class="row align-items-center">
+
+        <div class="col-md-6">
+            <img src="images/purdue_campus.jpg" class="img-fluid rounded shadow"
+            alt="campus">
+        </div>
+
+        <div class="col-md-6">
+            <h2>School of Applied & Creative Computing</h2>
+            <p>
+            At Purdue Polytechnic’s School of Applied and Creative Computing, students explore the intersection of computing, design, 
+            and innovation through a dynamic, interdisciplinary approach. The school emphasizes hands-on learning, applied research, and real-world impact, 
+            blending technical knowledge with creative thinking. With a focus on advancing both the science and the art of computing, students are prepared to become adaptable problem-solvers and 
+            forward-thinking leaders in an ever-evolving digital world. The School of 
+            Applied and Creative Computing provides solutions to emerging industry needs in a rapidly-evolving computing landscape.
+            </p>
+            <p>
+            Students gain hands-on experience in areas such as cybersecurity, data analytics,
+            web development, animation, and user experience design. These programs prepare
+            graduates for careers in fast-growing industries.
+            </p>
+        </div>
+
+        </div>
+    </div>
+    </section>
+
+    <!--History of Purdue Section-->
+    <section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">About Purdue University</h2>
+
+        <div class="row">
+
+        <div class="col-md-6">
+            <h4>History</h4>
+            <p>
+            Purdue University was founded in 1869 as a land-grant school focused on science, engineering, and agriculture. 
+            It was named after John Purdue, who helped fund the university. Today, Purdue has major campuses in West Lafayette and Indianapolis, and has grown into a leading 
+            research school known for hands-on learning and innovation, especially in technology and engineering.
+            </p>
+            <p>
+            Purdue is known for its strong engineering and technology programs,
+            and has produced many notable alumni, including Neil Armstrong, Orville Redenbacher, and Drew Brees.
+            </p>
+        </div>
+
+        <div class="col-md-6">
+            <h4>Fun Facts</h4>
+            <ul>
+            <li>Neil Armstrong, the first person to land on the moon, attended Purdue</li>
+            <li>The school colors are Gold and Black</li>
+            <li>Purdue has over 200 undergraduate majors</li>
+            <li>The Boilermaker Special is the official mascot</li>
+            </ul>
+        </div>
+
+        </div>
+    </div>
+    </section>
+
+    <!-- QUIZ -->
+    <section id="quiz" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Quiz: Find Your Ideal Major!</h2>
+
+        <form id="quizForm">
+
+            <!-- Q1 -->
+            <div class="mb-4">
+                <label class="form-label">1. What interests you most?</label>
+                <div>
+                    <label class="d-block">
+                        <input type="radio" name="q1" value="cyber" required> Security and protecting systems
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q1" value="design"> Design and creativity
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q1" value="data"> Working with data
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q1" value="web"> Building websites/apps
+                    </label>
+                </div>
+            </div>
+
+            <!-- Q2 -->
+            <div class="mb-4">
+                <label class="form-label">2. What do you enjoy more?</label>
+                <div>
+                    <label class="d-block">
+                        <input type="radio" name="q2" value="cyber" required> Solving technical problems
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q2" value="design"> Creating visual content
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q2" value="web"> Building websites/apps
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q2" value="data"> Sorting through data / identifying patterns
+                    </label>
+                </div>
+            </div>
+
+            <!-- Q3 -->
+            <div class="mb-4">
+                <label class="form-label">3. Which class would you enjoy the most?</label>
+                <div>
+                    <label class="d-block">
+                        <input type="radio" name="q3" value="cyber" required> Cybersecurity Fundamentals
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q3" value="design"> Animation / Visual Effects
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q3" value="web"> Web Development
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q3" value="data"> Data Analytics
+                    </label>
+                </div>
+            </div>
+
+            <!-- Q4 -->
+            <div class="mb-4">
+                <label class="form-label">4. What skill would you like to develop most?</label>
+                <div>
+                    <label class="d-block">
+                        <input type="radio" name="q4" value="cyber" required> Security tools and ethical hacking
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q4" value="design"> Animation and visual design
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q4" value="web"> Building websites and applications
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q4" value="data"> Data analysis and visualization
+                    </label>
+                </div>
+            </div>
+
+            <!-- Q5 -->
+            <div class="mb-4">
+                <label class="form-label">5. What kind of work environment do you see yourself in?</label>
+                <div>
+                    <label class="d-block">
+                        <input type="radio" name="q5" value="cyber" required> Securing networks and investigating threats
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q5" value="design"> Working in a creative studio or media environment
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q5" value="web"> Building and managing websites or applications
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q5" value="data"> Analyzing data in a business or tech setting
+                    </label>
+                </div>
+            </div>
+
+            <!-- Q6 -->
+            <div class="mb-4">
+                <label class="form-label">6. How do you prefer to solve problems or study?</label>
+                <div>
+                    <label class="d-block">
+                        <input type="radio" name="q6" value="cyber" required> Logical, step-by-step technical thinking
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q6" value="design"> Creative and visual thinking
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q6" value="web"> Learning by building and experimenting
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q6" value="data"> Analyzing patterns and working with data
+                    </label>
+                </div>
+            </div>
+
+            <!-- Q7 -->
+            <div class="mb-4">
+                <label class="form-label">7. What kind of projects interest you the most?</label>
+                <div>
+                    <label class="d-block">
+                        <input type="radio" name="q7" value="cyber" required> Security testing and defending systems
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q7" value="design"> Creating animations, graphics, or visual media
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q7" value="web"> Building websites or interactive applications
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q7" value="data"> Working with datasets and creating insights
+                    </label>
+                </div>
+            </div>
+
+            <!-- Q8 -->
+            <div class="mb-4">
+                <label class="form-label">8. Which best describes you?</label>
+                <div>
+                    <label class="d-block">
+                        <input type="radio" name="q8" value="cyber" required> Detail-oriented and focused on solving technical issues
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q8" value="design"> Creative and expressive
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q8" value="web"> Hands-on and enjoy building things
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q8" value="data"> Analytical and enjoy working with numbers
+                    </label>
+                </div>
+            </div>
+
+            <!-- Q9 -->
+            <div class="mb-4">
+                <label class="form-label">9. What kind of impact do you want to make?</label>
+                <div>
+                    <label class="d-block">
+                        <input type="radio" name="q9" value="cyber" required> Protect systems and keep people safe online
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q9" value="design"> Create engaging and visually appealing experiences
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q9" value="web"> Build tools and websites people use every day
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q9" value="data"> Help organizations make smarter decisions using data
+                    </label>
+                </div>
+            </div>
+
+            <!-- Q10 -->
+            <div class="mb-4">
+                <label class="form-label">10. What motivates you the most?</label>
+                <div>
+                    <label class="d-block">
+                        <input type="radio" name="q10" value="cyber" required> Protecting people and systems
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q10" value="design"> Expressing creativity and ideas
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q10" value="web"> Building useful tools for others
+                        </label>
+                        <label class="d-block">
+                        <input type="radio" name="q10" value="data"> Discovering insights and solving problems with data
+                    </label>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <button type="button" class="btn btn-dark" onclick="calculateResult()">
+                    Submit Quiz
+                </button>
+            </div>
+        </form>
+
+<div id="result" class="mt-4 text-center fw-bold">
+    Take this quiz to see what major may be best for you!
+</div>
+
+    </div>
+    </section>
+
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">CIT 312 Final Project (ACC Course Visualization) | Purdue University</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="script.js"></script>
+
+    </body>
+    </html>
