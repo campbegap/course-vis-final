@@ -17,6 +17,11 @@
     background-color: #000000;
     }
 
+    .hero .container {
+    max-width: 900px;
+    margin: 0 auto;
+    }
+
     .navbar-brand {
     font-weight: bold;
     }
