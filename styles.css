@@ -84,7 +84,8 @@
     border-radius: 10px;
     backface-visibility: hidden;
     background-color: white;
-    border: 1px solid #dddddd;
+    border: 1px solid #cfcfcf;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     }
 
     .flip-card-front {
@@ -94,7 +95,7 @@
     .flip-card-back {
     transform: rotateY(180deg);
     overflow-y: auto;
-    background-color: #f8f8f8;
+    background-color: #f3f3f3;
     }
 
     .flip-card h3 {
