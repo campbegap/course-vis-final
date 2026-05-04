@@ -1,17 +1,17 @@
-$purdue-gold: #c9b27c;
-$purdue-black: #000000;
-$page-gray: #eeeeee;
+$p-gold: #c9b27c;
+$p-black: #000000;
+$p-gray: #eeeeee;
 
 body {
-    background-color: $page-gray;
+    background-color: $p-gray;
 }
 
 .hero,
 .program-hero {
-    background-color: $purdue-black;
+    background-color: $p-black;
 }
 
 .btn-warning {
-    background-color: $purdue-gold;
-    border-color: $purdue-gold;
+    background-color: $p-gold;
+    border-color: $p-gold;
 }
