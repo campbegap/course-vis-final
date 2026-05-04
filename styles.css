@@ -41,7 +41,7 @@
     background-color: #e6e6e6 !important;
     }
 
-    .information-sec {
+    .about-box {
     margin: 0 auto;
     background-color: white;
     padding: 24px;
@@ -51,7 +51,7 @@
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
     }
 
-    .information-sec h4 {
+    .about-box h4 {
     font-weight: bold;
     margin-bottom: 15px;
     }
